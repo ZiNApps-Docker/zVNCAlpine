@@ -45,5 +45,5 @@ COPY start.sh /opt/start.sh
 RUN chmod +x /opt/start.sh
 ENV DISPLAY :0
 ENV PASSWD changeme
-
+EXPOSE 5901
 CMD ["/opt/start.sh"]
